@@ -95,15 +95,17 @@ function filterProjects(category) {
  * -------------------------------------------------------------------------- */
 function openVideoModal(videoUrl) {
     const modal = document.getElementById('video-modal');
-    const iframe = document.getElementById('modal-iframe');
-    iframe.src = videoUrl;
+    const video = document.getElementById('modal-video');
+    video.src = videoUrl;
     modal.classList.add('active');
+    video.play();
 }
 
 function closeVideoModal() {
     const modal = document.getElementById('video-modal');
-    const iframe = document.getElementById('modal-iframe');
-    iframe.src = '';
+    const video = document.getElementById('modal-video');
+    video.pause();
+    video.src = '';
     modal.classList.remove('active');
 }
 

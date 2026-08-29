@@ -268,7 +268,7 @@
         <div class="video-grid">
             <!-- Video Item 1 -->
             <div class="video-card glass-panel">
-                <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="video-thumbnail" onclick="openVideoModal('videos/rtn.mp4')">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
@@ -281,7 +281,7 @@
 
             <!-- Video Item 2 -->
             <div class="video-card glass-panel">
-                <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="video-thumbnail" onclick="openVideoModal('videos/rtl.mp4')">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
@@ -294,7 +294,7 @@
 
             <!-- Video Item 3 -->
             <div class="video-card glass-panel">
-                <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+                <div class="video-thumbnail" onclick="openVideoModal('videos/rtn.mp4')">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
@@ -374,9 +374,7 @@
     <div class="modal" id="video-modal">
         <div class="modal-content">
             <span class="modal-close" onclick="closeVideoModal()">&times;</span>
-            <iframe id="modal-iframe" width="100%" height="100%" src="" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <video id="modal-video" width="100%" height="100%" controls></video>
         </div>
     </div>
 
