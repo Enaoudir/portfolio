@@ -47,7 +47,7 @@
                     <div class="status-dot"></div>
                     Disponible pour Lead & R&D AI Roles
                 </div>
-                <h1 class="hero-title">Architecte d'<span class="gradient-text">Intelligence Artificielle</span> & Deep
+                <h1 class="hero-title">Ingénieur d'<span class="gradient-text">Intelligence Artificielle</span> & Deep
                     Learning</h1>
                 <p class="hero-subtitle">
                     Ingénieur spécialisé en Modèles de Langage (LLM), Vision par Ordinateur et Systèmes Autonomes. Je
@@ -202,108 +202,83 @@
 
         <div class="filter-buttons">
             <button class="filter-btn active" onclick="filterProjects('all')">Tous</button>
-            <button class="filter-btn" onclick="filterProjects('llm')">LLM / NLP</button>
-            <button class="filter-btn" onclick="filterProjects('vision')">Computer Vision</button>
-            <button class="filter-btn" onclick="filterProjects('mlops')">MLOps</button>
+            <button class="filter-btn" onclick="filterProjects('nlp')">NLP / RAG</button>
+            <button class="filter-btn" onclick="filterProjects('multimodal')">Multimodal</button>
         </div>
 
         <div class="projects-grid">
             <!-- Project 1 -->
-            <div class="project-card glass-panel" data-category="llm">
+            <div class="project-card glass-panel" data-category="nlp">
                 <div>
                     <div class="project-header">
-                        <span class="project-badge">LLM & RAG</span>
+                        <span class="project-badge">Mémoire de Master 2</span>
                         <div class="project-links">
                             <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-                    <h3 class="project-title">NeuroRAG Enterprise</h3>
-                    <p class="project-desc">Système RAG hybride ultra-basse latence capable d'interroger +10 millions de
-                        documents avec recherche vectorielle & réordonnancement (Cross-Encoder).</p>
+                    <h3 class="project-title">IA Souveraine du Niger</h3>
+                    <p class="project-desc">Modèle d'intelligence artificielle souverain conçu dans le cadre de ma
+                        soutenance de Master 2, exploitant les données de l'Institut National de la Statistique (INS)
+                        du Niger. Le système permet à tout utilisateur de poser des questions en langage naturel sur
+                        les données socio-économiques du pays et d'obtenir des réponses précises et contextualisées.</p>
                 </div>
                 <div>
                     <div class="project-metrics">
                         <div class="metric">
-                            <span class="metric-val">42ms</span>
-                            <span class="metric-key">Latence Rerank</span>
+                            <span class="metric-val">INS Niger</span>
+                            <span class="metric-key">Source des Données</span>
                         </div>
                         <div class="metric">
-                            <span class="metric-val">98.7%</span>
-                            <span class="metric-key">Recall Precision</span>
+                            <span class="metric-val">Q&A Naturel</span>
+                            <span class="metric-key">Interaction Utilisateur</span>
                         </div>
                     </div>
                     <div class="skill-tags">
-                        <span class="tag">Llama-3</span>
-                        <span class="tag">Qdrant</span>
-                        <span class="tag">FastAPI</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Python</span>
                     </div>
                 </div>
             </div>
 
             <!-- Project 2 -->
-            <div class="project-card glass-panel" data-category="vision">
+            <div class="project-card glass-panel" data-category="multimodal">
                 <div>
                     <div class="project-header">
-                        <span class="project-badge">Computer Vision</span>
+                        <span class="project-badge">Projet d'Équipe</span>
                         <div class="project-links">
                             <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-                    <h3 class="project-title">VisionSentinel Edge</h3>
-                    <p class="project-desc">Plateforme d'analyse vidéo en temps réel sur GPU Jetson Orin pour la
-                        détection d'anomalies industrielles avec accélération TensorRT.</p>
+                    <h3 class="project-title">EDUNA — Assistant IA d'EduNiger</h3>
+                    <p class="project-desc">EduNiger est une bibliothèque numérique nationale développée par notre
+                        équipe. J'y ai conçu EDUNA, l'assistant IA capable d'interroger l'intégralité du fonds
+                        documentaire — textes, images, PDF et transcriptions audio — en s'appuyant sur le modèle
+                        Gemma.</p>
                 </div>
                 <div>
                     <div class="project-metrics">
                         <div class="metric">
-                            <span class="metric-val">120 FPS</span>
-                            <span class="metric-key">Débit d'inférence</span>
+                            <span class="metric-val">Gemma</span>
+                            <span class="metric-key">Modèle Utilisé</span>
                         </div>
                         <div class="metric">
-                            <span class="metric-val">&lt; 8ms</span>
-                            <span class="metric-key">Frame Latency</span>
+                            <span class="metric-val">Texte/Image/PDF/Audio</span>
+                            <span class="metric-key">Formats Supportés</span>
                         </div>
                     </div>
                     <div class="skill-tags">
-                        <span class="tag">YOLOv9</span>
-                        <span class="tag">TensorRT</span>
-                        <span class="tag">C++ / CUDA</span>
+                        <span class="tag">Gemma</span>
+                        <span class="tag">Multimodal RAG</span>
+                        <span class="tag">OCR</span>
+                        <span class="tag">Transcription Audio</span>
                     </div>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card glass-panel" data-category="mlops">
-                <div>
-                    <div class="project-header">
-                        <span class="project-badge">MLOps</span>
-                        <div class="project-links">
-                            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">AutoDeploy LLM Cluster</h3>
-                    <p class="project-desc">Orchestrateur Kubernetes avec autoscaling dynamique sur métriques GPU pour
-                        le déploiement multi-tenant de modèles open-source.</p>
-                </div>
-                <div>
-                    <div class="project-metrics">
-                        <div class="metric">
-                            <span class="metric-val">99.99%</span>
-                            <span class="metric-key">Uptime</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-val">-40%</span>
-                            <span class="metric-key">Coût GPU</span>
-                        </div>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="tag">K8s</span>
-                        <span class="tag">Triton</span>
-                        <span class="tag">Prometheus</span>
-                    </div>
+                    <button class="btn btn-secondary project-demo-btn" onclick="openVideoModal('videos/gemma.mp4')">
+                        <i class="fa-solid fa-circle-play"></i> Voir la Démo
+                    </button>
                 </div>
             </div>
         </div>
@@ -320,45 +295,45 @@
             <!-- Video Item 1 -->
             <div class="video-card glass-panel">
                 <div class="video-thumbnail" onclick="openVideoModal('videos/rtn.mp4')">
-                    <img src="images/video1-cover.png" alt="Le Futur des LLMs" class="video-cover">
+                    <img src="images/video1-cover.png" alt="EduNiger sur RTN" class="video-cover">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
-                    <div class="video-meta">KEYNOTE TECH 2026 • <span class="video-duration"
+                    <div class="video-meta">RTN — TÉLÉ NATIONALE • <span class="video-duration"
                             data-src="videos/rtn.mp4">--:--</span></div>
-                    <h3 class="video-title">Le Futur des LLMs et l'Inférence Optimisée</h3>
-                    <p class="video-desc">Présentation sur l'optimisation des architectures Transformer et les
-                        techniques de réduction de mémoire GPU en production.</p>
+                    <h3 class="video-title">Présentation d'EduNiger sur RTN</h3>
+                    <p class="video-desc">Présentation du projet EduNiger, bibliothèque numérique nationale, sur la
+                        Télévision Nationale du Niger (RTN).</p>
                 </div>
             </div>
 
             <!-- Video Item 2 -->
             <div class="video-card glass-panel">
                 <div class="video-thumbnail" onclick="openVideoModal('videos/rtl.mp4')">
-                    <img src="images/video2-cover.png" alt="Dans les Coulisses du MLOps" class="video-cover">
+                    <img src="images/video2-cover.png" alt="EduNiger sur Labari RTL" class="video-cover">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
-                    <div class="video-meta">PODCAST AI TALKS • <span class="video-duration"
+                    <div class="video-meta">LABARI (RTL) • <span class="video-duration"
                             data-src="videos/rtl.mp4">--:--</span></div>
-                    <h3 class="video-title">Dans les Coulisses du MLOps & RAG</h3>
-                    <p class="video-desc">Discussion approfondie sur la gestion du Data Drift et le déploiement continu
-                        des modèles d'IA générative.</p>
+                    <h3 class="video-title">Présentation d'EduNiger sur Labari (RTL)</h3>
+                    <p class="video-desc">Présentation du projet EduNiger et de son assistant IA EDUNA sur la chaîne
+                        Labari (RTL).</p>
                 </div>
             </div>
 
             <!-- Video Item 3 -->
             <div class="video-card glass-panel">
                 <div class="video-thumbnail" onclick="openVideoModal('videos/gemma.mp4')">
-                    <img src="images/video3-cover.png" alt="Démo Edge Vision AI" class="video-cover">
+                    <img src="images/video3-cover.png" alt="Démo EDUNA avec Gemma" class="video-cover">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
-                    <div class="video-meta">LIVE DEMO • <span class="video-duration"
+                    <div class="video-meta">DÉMO LIVE • <span class="video-duration"
                             data-src="videos/gemma.mp4">--:--</span></div>
-                    <h3 class="video-title">Démo Temps Réel : Edge Vision AI System</h3>
-                    <p class="video-desc">Démonstration technique en direct de notre modèle de détection d'objets
-                        tournant sur du matériel embarqué.</p>
+                    <h3 class="video-title">Démo d'EDUNA avec Gemma</h3>
+                    <p class="video-desc">Démonstration en direct de l'assistant IA EDUNA, propulsé par le modèle
+                        Gemma, interrogeant la bibliothèque numérique d'EduNiger.</p>
                 </div>
             </div>
         </div>
@@ -375,45 +350,48 @@
             <!-- Event 1 -->
             <div class="event-card glass-panel">
                 <div class="event-photo">
-                    <img src="images/event1.jpg" alt="AI Summit Africa 2026">
+                    <img src="images/event1.jpg" alt="Soutenance de Master 2">
                 </div>
                 <div class="event-info">
-                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 15 Mars 2026</div>
-                    <h3 class="event-title">AI Summit Africa 2026</h3>
-                    <p class="event-desc">Conférence internationale réunissant chercheurs et ingénieurs IA d'Afrique de
-                        l'Ouest, autour des enjeux de souveraineté numérique et d'infrastructures LLM.</p>
-                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Une expérience marquante, riche en
-                        échanges avec des experts du continent.</p>
+                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 09 Juillet 2026</div>
+                    <h3 class="event-title">Soutenance de Mémoire de Master 2</h3>
+                    <p class="event-desc">Soutenance officielle de mon projet de fin d'études sur l'IA souveraine du
+                        Niger, devant un jury académique.</p>
+                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> L'aboutissement de deux années de
+                        recherche et de travail acharné.</p>
                 </div>
             </div>
 
             <!-- Event 2 -->
             <div class="event-card glass-panel">
                 <div class="event-photo">
-                    <img src="images/event2.jpg" alt="Hackathon National IA">
+                    <img src="images/event2.jpg" alt="African Olympiad in AI 2026">
                 </div>
                 <div class="event-info">
-                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 8 Juin 2026</div>
-                    <h3 class="event-title">Hackathon National IA — Niamey</h3>
-                    <p class="event-desc">48h de compétition intensive pour concevoir une solution IA appliquée à
-                        l'agriculture de précision au Niger.</p>
-                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Une équipe soudée, un prototype
-                        livré dans les temps et beaucoup d'apprentissage.</p>
+                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> Du 09 au 12 Avril 2026 —
+                        Sousse, Tunisie</div>
+                    <h3 class="event-title">African Olympiad in AI (AOAI)</h3>
+                    <p class="event-desc">Compétition panafricaine d'intelligence artificielle organisée à l'EPI
+                        Digital School de Sousse, en Tunisie. Nous avons représenté le Niger et remporté des
+                        médailles.</p>
+                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Une immense fierté de représenter
+                        le Niger sur la scène africaine de l'IA.</p>
                 </div>
             </div>
 
             <!-- Event 3 -->
             <div class="event-card glass-panel">
                 <div class="event-photo">
-                    <img src="images/event3.jpg" alt="Meetup MLOps Communauté">
+                    <img src="images/event3.jpg" alt="Remise des médailles SIATEG 2026">
                 </div>
                 <div class="event-info">
-                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 21 Août 2026</div>
-                    <h3 class="event-title">Meetup MLOps & Cloud AI</h3>
-                    <p class="event-desc">Session communautaire sur le déploiement de pipelines MLOps résilients et le
-                        monitoring de modèles en production.</p>
-                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Un moment d'échange précieux avec la
-                        communauté tech locale.</p>
+                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> Du 23 au 24 Juillet 2026</div>
+                    <h3 class="event-title">Remise des Médailles — SIATEG 2026</h3>
+                    <p class="event-desc">Cérémonie de remise des médailles obtenues à l'AOAI, organisée à l'occasion
+                        de la Semaine de l'Intelligence Artificielle et des Technologies Émergentes du Gouvernement
+                        (SIATEG 2026).</p>
+                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Une reconnaissance officielle du
+                        travail accompli par toute l'équipe.</p>
                 </div>
             </div>
         </div>
@@ -444,7 +422,7 @@
                 <div class="terminal-input-row" style="width: 100%;">
                     <span class="prompt">guest@ridouane-ai:~$</span>
                     <input type="text" id="terminal-input" class="terminal-input"
-                        placeholder="Tapez une commande (ex: skills, projects, contact)..." autofocus>
+                        placeholder="Tapez une commande (ex: skills, projects, contact)...">
                 </div>
             </div>
         </div>

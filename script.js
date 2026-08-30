@@ -1,4 +1,13 @@
 /* --------------------------------------------------------------------------
+ * 0bis. FORCE SCROLL TO TOP ON LOAD (Accueil)
+ * -------------------------------------------------------------------------- */
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+window.addEventListener('load', () => window.scrollTo(0, 0));
+
+/* --------------------------------------------------------------------------
  * 0. AUTO-EXTRACT VIDEO DURATIONS
  * -------------------------------------------------------------------------- */
 function formatDuration(totalSeconds) {

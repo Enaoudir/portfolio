@@ -299,8 +299,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 380px;
-    aspect-ratio: 3/4.5;
-    /* était 4/5, cadre plus allongé */
+    aspect-ratio: 4/5;
     border-radius: 24px;
     overflow: hidden;
     padding: 2px;
@@ -632,6 +631,14 @@ body {
 .event-comment i {
     color: var(--violet-accent);
     margin-right: 6px;
+}
+
+.project-demo-btn {
+    width: 100%;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
 }
 
 /* ==========================================================================
