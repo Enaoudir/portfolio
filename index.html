@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aboubacar Ridouane | Lead AI & Machine Learning Engineer</title>
+    <title>Abooubacar Hamidou Ridouane | Lead AI & Machine Learning Engineer</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,12 +26,13 @@
     <nav class="navbar glass-panel">
         <a href="#" class="logo">
             <div class="logo-dot"></div>
-            <span>ABOUBACAR.AI</span>
+            <span>RIDOUANE.AI</span>
         </a>
         <ul class="nav-links">
             <li><a href="#about">Architectures</a></li>
             <li><a href="#projects">Projets Neural</a></li>
             <li><a href="#media">Interviews & Médias</a></li>
+            <li><a href="#events">Événements</a></li>
             <li><a href="#terminal">CLI Console</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -65,10 +66,10 @@
                 <div class="hero-avatar-card glass-panel">
                     <div class="hero-avatar-inner">
                         <div class="avatar-graphic">
-                            <i class="fa-solid fa-atom neural-node-center"></i>
+                            <img src="images/photo.png" alt="Aboubacar Hamidou Ridouane" class="avatar-photo">
                         </div>
                         <div class="avatar-meta">
-                            <h3 class="avatar-name">Aboubacar Ridouane</h3>
+                            <h3 class="avatar-name">ABOUBACAR HAMIDOU Ridouane</h3>
                             <p class="avatar-role">// Senior AI & MLOps Engineer</p>
                         </div>
                     </div>
@@ -137,6 +138,56 @@
                     <span class="tag">Triton Server</span>
                     <span class="tag">MLflow</span>
                     <span class="tag">Docker</span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-panel">
+                <div class="skill-icon"><i class="fa-solid fa-comments"></i></div>
+                <h3 class="skill-title">NLP & Traitement du Langage</h3>
+                <p class="skill-desc">Extraction d'information, classification de texte, NER et systèmes
+                    conversationnels multilingues basés sur des architectures Transformer.</p>
+                <div class="skill-tags">
+                    <span class="tag">spaCy</span>
+                    <span class="tag">Transformers</span>
+                    <span class="tag">BERT</span>
+                    <span class="tag">NLTK</span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-panel">
+                <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+                <h3 class="skill-title">Apprentissage par Renforcement</h3>
+                <p class="skill-desc">Conception d'agents autonomes et politiques de décision optimisées pour la
+                    robotique, la simulation et les systèmes multi-agents.</p>
+                <div class="skill-tags">
+                    <span class="tag">Stable-Baselines3</span>
+                    <span class="tag">Gymnasium</span>
+                    <span class="tag">Ray RLlib</span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-panel">
+                <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+                <h3 class="skill-title">Cloud & Big Data AI</h3>
+                <p class="skill-desc">Traitement de données massives et entraînement distribué de modèles sur des
+                    infrastructures cloud scalables.</p>
+                <div class="skill-tags">
+                    <span class="tag">AWS SageMaker</span>
+                    <span class="tag">GCP Vertex AI</span>
+                    <span class="tag">Apache Spark</span>
+                    <span class="tag">Airflow</span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-panel">
+                <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3 class="skill-title">IA Responsable & Sécurité</h3>
+                <p class="skill-desc">Audit de biais, explicabilité des modèles (XAI) et durcissement des systèmes IA
+                    contre les attaques adverses.</p>
+                <div class="skill-tags">
+                    <span class="tag">SHAP</span>
+                    <span class="tag">LIME</span>
+                    <span class="tag">Adversarial Robustness</span>
                 </div>
             </div>
         </div>
@@ -269,10 +320,12 @@
             <!-- Video Item 1 -->
             <div class="video-card glass-panel">
                 <div class="video-thumbnail" onclick="openVideoModal('videos/rtn.mp4')">
+                    <img src="images/video1-cover.png" alt="Le Futur des LLMs" class="video-cover">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
-                    <div class="video-meta">KEYNOTE TECH 2026 • 24 MIN</div>
+                    <div class="video-meta">KEYNOTE TECH 2026 • <span class="video-duration"
+                            data-src="videos/rtn.mp4">--:--</span></div>
                     <h3 class="video-title">Le Futur des LLMs et l'Inférence Optimisée</h3>
                     <p class="video-desc">Présentation sur l'optimisation des architectures Transformer et les
                         techniques de réduction de mémoire GPU en production.</p>
@@ -282,10 +335,12 @@
             <!-- Video Item 2 -->
             <div class="video-card glass-panel">
                 <div class="video-thumbnail" onclick="openVideoModal('videos/rtl.mp4')">
+                    <img src="images/video2-cover.png" alt="Dans les Coulisses du MLOps" class="video-cover">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
-                    <div class="video-meta">PODCAST AI TALKS • 45 MIN</div>
+                    <div class="video-meta">PODCAST AI TALKS • <span class="video-duration"
+                            data-src="videos/rtl.mp4">--:--</span></div>
                     <h3 class="video-title">Dans les Coulisses du MLOps & RAG</h3>
                     <p class="video-desc">Discussion approfondie sur la gestion du Data Drift et le déploiement continu
                         des modèles d'IA générative.</p>
@@ -294,14 +349,71 @@
 
             <!-- Video Item 3 -->
             <div class="video-card glass-panel">
-                <div class="video-thumbnail" onclick="openVideoModal('videos/rtn.mp4')">
+                <div class="video-thumbnail" onclick="openVideoModal('videos/gemma.mp4')">
+                    <img src="images/video3-cover.png" alt="Démo Edge Vision AI" class="video-cover">
                     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
                 </div>
                 <div class="video-info">
-                    <div class="video-meta">LIVE DEMO • 12 MIN</div>
+                    <div class="video-meta">LIVE DEMO • <span class="video-duration"
+                            data-src="videos/gemma.mp4">--:--</span></div>
                     <h3 class="video-title">Démo Temps Réel : Edge Vision AI System</h3>
                     <p class="video-desc">Démonstration technique en direct de notre modèle de détection d'objets
                         tournant sur du matériel embarqué.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5bis. Events Section -->
+    <section id="events" class="section-padding container">
+        <div class="section-header">
+            <span class="section-tag">// Timeline</span>
+            <h2 class="section-title">Événements & Participations</h2>
+        </div>
+
+        <div class="events-grid">
+            <!-- Event 1 -->
+            <div class="event-card glass-panel">
+                <div class="event-photo">
+                    <img src="images/event1.jpg" alt="AI Summit Africa 2026">
+                </div>
+                <div class="event-info">
+                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 15 Mars 2026</div>
+                    <h3 class="event-title">AI Summit Africa 2026</h3>
+                    <p class="event-desc">Conférence internationale réunissant chercheurs et ingénieurs IA d'Afrique de
+                        l'Ouest, autour des enjeux de souveraineté numérique et d'infrastructures LLM.</p>
+                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Une expérience marquante, riche en
+                        échanges avec des experts du continent.</p>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event-card glass-panel">
+                <div class="event-photo">
+                    <img src="images/event2.jpg" alt="Hackathon National IA">
+                </div>
+                <div class="event-info">
+                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 8 Juin 2026</div>
+                    <h3 class="event-title">Hackathon National IA — Niamey</h3>
+                    <p class="event-desc">48h de compétition intensive pour concevoir une solution IA appliquée à
+                        l'agriculture de précision au Niger.</p>
+                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Une équipe soudée, un prototype
+                        livré dans les temps et beaucoup d'apprentissage.</p>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card glass-panel">
+                <div class="event-photo">
+                    <img src="images/event3.jpg" alt="Meetup MLOps Communauté">
+                </div>
+                <div class="event-info">
+                    <div class="event-date"><i class="fa-solid fa-calendar-days"></i> 21 Août 2026</div>
+                    <h3 class="event-title">Meetup MLOps & Cloud AI</h3>
+                    <p class="event-desc">Session communautaire sur le déploiement de pipelines MLOps résilients et le
+                        monitoring de modèles en production.</p>
+                    <p class="event-comment"><i class="fa-solid fa-quote-left"></i> Un moment d'échange précieux avec la
+                        communauté tech locale.</p>
                 </div>
             </div>
         </div>
@@ -324,13 +436,13 @@
                 <div class="terminal-title">ridouane@ai-cluster:~ (zsh)</div>
             </div>
             <div class="terminal-body" id="terminal-body">
-                <div class="terminal-output">Bienvenue sur la console d'Aboubacar Ridouane (AI System v3.4).
+                <div class="terminal-output">Bienvenue sur la console d'Aboubacar Hamidou Ridouane (AI System v3.4).
                     Tapez <span style="color:var(--cyan-primary)">'help'</span> pour voir la liste des commandes
                     disponibles.</div>
             </div>
             <div class="terminal-header" style="border-top: 1px solid var(--border-card); border-bottom: none;">
                 <div class="terminal-input-row" style="width: 100%;">
-                    <span class="prompt">guest@aboubacar-ai:~$</span>
+                    <span class="prompt">guest@ridouane-ai:~$</span>
                     <input type="text" id="terminal-input" class="terminal-input"
                         placeholder="Tapez une commande (ex: skills, projects, contact)..." autofocus>
                 </div>
@@ -348,16 +460,21 @@
                 Que vous recherchiez un profil Lead IA pour votre équipe ou une expertise sur des architectures LLM &
                 Computer Vision.
             </p>
-            <a href="mailto:aboubacar.ridouane@example.com" class="btn btn-primary"><i
-                    class="fa-solid fa-paper-plane"></i> Envoyer un Message Direct</a>
+            <a href="https://wa.me/22780929440?text=Bonjour%20Ridouane%2C%20je%20souhaite%20discuter%20d%27un%20projet%20IA"
+                target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Envoyer un Message
+                Direct</a>
+
+            <p class="contact-phone"><i class="fa-solid fa-phone"></i> +227 80 92 94 40</p>
 
             <div class="social-links">
+                <a href="https://wa.me/22780929440" target="_blank" class="social-btn"><i
+                        class="fa-brands fa-whatsapp"></i></a>
                 <a href="https://github.com" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
                 <a href="https://linkedin.com" target="_blank" class="social-btn"><i
                         class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://twitter.com" target="_blank" class="social-btn"><i
                         class="fa-brands fa-x-twitter"></i></a>
-                <a href="mailto:aboubacar.ridouane@example.com" class="social-btn"><i
+                <a href="mailto:aboubacarhamidouridouane@gmail.com" class="social-btn"><i
                         class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
@@ -366,7 +483,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2026 Aboubacar Ridouane • Architecturé avec précision & passion pour l'IA.</p>
+            <p>© 2026 ABOUBACAR HAMIDOU Ridouane • Architecturé avec précision & passion pour l'IA.</p>
         </div>
     </footer>
 

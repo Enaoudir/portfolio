@@ -1,4 +1,28 @@
 /* --------------------------------------------------------------------------
+ * 0. AUTO-EXTRACT VIDEO DURATIONS
+ * -------------------------------------------------------------------------- */
+function formatDuration(totalSeconds) {
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = Math.floor(totalSeconds % 60);
+    return `${minutes} MIN ${String(seconds).padStart(2, '0')}s`;
+}
+
+document.querySelectorAll('.video-duration').forEach(el => {
+    const src = el.dataset.src;
+    const tempVideo = document.createElement('video');
+    tempVideo.preload = 'metadata';
+    tempVideo.src = src;
+    tempVideo.addEventListener('loadedmetadata', function () {
+        el.textContent = formatDuration(tempVideo.duration);
+        tempVideo.removeAttribute('src');
+        tempVideo.load();
+    });
+    tempVideo.addEventListener('error', function () {
+        el.textContent = '—';
+    });
+});
+
+/* --------------------------------------------------------------------------
  * 1. NEURAL MESH CANVAS ANIMATION
  * -------------------------------------------------------------------------- */
 const canvas = document.getElementById('neural-canvas');
